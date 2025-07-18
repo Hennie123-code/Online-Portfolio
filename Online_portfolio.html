@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Henru Diedericks - Portfolio</title>
+    <style>
+        /* Animations */
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes slideIn {
+            from {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Base Styles */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #f4f4f4;
+            color: #333;
+            margin: 0;
+            padding: 0;
+        }
+
+        header, footer {
+            background-color: #2D3E53;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+            transition: transform 0.3s ease;
+        }
+
+        nav a:hover {
+            transform: scale(1.1);
+        }
+
+        .container {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+            background-color: #fff;
+        }
+
+        section {
+            margin-bottom: 40px;
+            animation: fadeIn 1s ease-in;
+        }
+
+        h2 {
+            color: #444;
+            border-bottom: 2px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+
+        .project a {
+            display: block;
+            color: #1a0dab;
+            text-decoration: none;
+        }
+
+        .project a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Henru Diedericks</h1>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#resume">Resume</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
+    </nav>
+</header>
+
+<div class="container">
+    <section id="about">
+        <h2>About Me</h2>
+        <p>
+            I am a determined and dependable candidate who meets expectations with a positive attitude. 
+            I am eager to learn and always willing to take on added responsibilities to meet team goals.
+            With experience in group system development for a university project, I’m confident in my ability 
+            to contribute to any project I join.
+        </p>
+        <p>Sincerely,<br>Henru</p>
+    </section>
+
+    <section id="resume">
+        <h2>Resume / CV</h2>
+        <h3>Education</h3>
+        <ul>
+            <li><strong>Balfour Combined (2010–2022):</strong> Excelled in mathematics and physics.</li>
+            <li><strong>North-West University (2023–2026):</strong> 8 distinctions; dedication to studies.</li>
+        </ul>
+
+        <h3>Work Experience</h3>
+        <ul>
+            <li><strong>University Group Project (2024–2025):</strong> Designed a full business application with a database.</li>
+            <li><strong>University Subject Experience (2023–2025):</strong> Exposure to Networking, Database building, and Programming (C++, C#, Java, Python).</li>
+        </ul>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <p><strong>Business Management App</strong></p>
+            <p>A complete application designed with a database to manage business operations.</p>
+            <a href="https://github.com/Hennie123-code/Online-Portfolio" target="_blank">View on GitHub</a>
+        </div>
+        <!-- Add more projects here -->
+    </section>
+
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>Effective Communication</li>
+            <li>Attention to Detail</li>
+            <li>Teamwork</li>
+            <li>Work Ethics</li>
+            <li>Problem-solving</li>
+            <li>Entry Level Cybersecurity</li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Information</h2>
+        <div class="contact-info">
+            <p><strong>Phone:</strong> 079 104 2869</p>
+            <p><strong>Email:</strong> <a href="mailto:hennievettie6@gmail.com">hennievettie6@gmail.com</a></p>
+            <p><strong>Driver's License:</strong> Yes</p>
+            <p><strong>Hobbies:</strong> Gaming, Golfing, Drawing, Computer building</p>
+        </div>
+    </section>
+</div>
+
+<footer>
+    <p>© 2025 Henru Diedericks. All rights reserved.</p>
+</footer>
+
+</body>
+</html>
+
